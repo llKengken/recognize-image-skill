@@ -1,7 +1,8 @@
 {
-  "apiUrl": "https://api.daseinai.xyz/v1/chat/completions",
+  "_comment": "任意 OpenAI-compatible 视觉 API 都可使用。将 apiUrl 替换为你的 chat-completions 地址，apiKey 填入你的密钥，model 替换为你的视觉模型 ID。",
+  "apiUrl": "https://api.example.com/v1/chat/completions",
   "apiKey": "",
-  "model": "gpt-5.6",
+  "model": "your-vision-model",
   "maxOutputTokens": 2000,
   "requestTimeoutMs": 120000,
   "maxRetries": 2
