@@ -49,6 +49,14 @@ Copy-Item -LiteralPath .\recognize-image -Destination "$env:USERPROFILE\.codex\s
 
 要求 Node.js 18 或更高版本。如果 `node` 不在 PATH 中，可以使用 Codex 运行时自带的 Node（可通过 `load_workspace_dependencies` 获取路径）。
 
+### 一键安装提示词
+
+在 Codex 中发送以下提示词，即可自动安装、配置并测试该技能：
+
+```text
+请用 skill-installer 从 https://github.com/llKengken/recognize-image-skill 安装 recognize-image 技能到 ~/.codex/skills；读取 recognize-image/config.example.json 创建 recognize-image/config.json 并配置 apiUrl 和 apiKey；最后用一张图片测试识别功能。
+```
+
 ### 文件结构
 
 ```text
@@ -133,4 +141,4 @@ node recognize-image/scripts/recognize.js "path/to/image.png" --prompt "请描�
 
 ## 许可证
 
-许可证未指定，请联系仓库所有者确认。
+本项目采用 MIT License，详见 [LICENSE](LICENSE)。

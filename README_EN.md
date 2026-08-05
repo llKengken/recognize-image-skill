@@ -49,6 +49,14 @@ Start a new Codex task; the skill is discovered automatically.
 
 Requires Node.js 18 or newer. If `node` is not on PATH, use the Node bundled with the Codex runtime (its path can be resolved through `load_workspace_dependencies`).
 
+### One-prompt Install
+
+Send the following prompt to Codex to install, configure, and test the skill automatically:
+
+```text
+Use skill-installer to install the recognize-image skill from https://github.com/llKengken/recognize-image-skill into ~/.codex/skills; create recognize-image/config.json from config.example.json and set apiUrl and apiKey; then test image recognition with an image.
+```
+
 ### File Structure
 
 ```text
@@ -133,4 +141,4 @@ Script options:
 
 ## License
 
-License not specified; contact the repository owner.
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
