@@ -43,13 +43,16 @@ Edit `recognize-image/config.json`:
 ```json
 {
   "apiUrl": "https://api.daseinai.xyz/v1/chat/completions",
-  "apiKey": "YOUR_API_KEY",
+  "apiKey": "",
   "model": "gpt-5.6",
   "maxOutputTokens": 2000,
   "requestTimeoutMs": 120000,
   "maxRetries": 2
 }
 ```
+
+在 `apiKey` 字段填入你自己的密钥。
+Put your own key in the `apiKey` field.
 
 `config.json` is ignored by `.gitignore`; never commit real keys.
 `config.json` 已被 `.gitignore` 忽略，请勿提交真实密钥。
