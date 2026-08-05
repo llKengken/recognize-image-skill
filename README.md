@@ -54,7 +54,7 @@ Copy-Item -LiteralPath .\recognize-image -Destination "$env:USERPROFILE\.codex\s
 在 Codex 中发送以下提示词，即可自动安装、配置并测试该技能：
 
 ```text
-请用 skill-installer 从 https://github.com/llKengken/recognize-image-skill 安装 recognize-image 技能到 ~/.codex/skills；读取 recognize-image/config.example.json 创建 recognize-image/config.json 并配置 apiUrl 和 apiKey；最后用一张图片测试识别功能。
+请用 skill-installer 从 https://github.com/llKengken/recognize-image-skill 安装 recognize-image 技能到 ~/.codex/skills；读取 recognize-image/config.example.json 创建 recognize-image/config.json 并配置 apiUrl/apiKey；最后用一张图片测试识别。
 ```
 
 ### 文件结构
@@ -141,4 +141,4 @@ node recognize-image/scripts/recognize.js "path/to/image.png" --prompt "请描�
 
 ## 许可证
 
-本项目采用 MIT License，详见 [LICENSE](LICENSE)。
+本项目采用 MIT License，详见 LICENSE
