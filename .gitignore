@@ -1,0 +1,2 @@
+# Local config contains a secret API key; never commit it.
+recognize-image/config.json

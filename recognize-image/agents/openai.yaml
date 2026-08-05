@@ -1,0 +1,7 @@
+interface:
+  display_name: "图片识别 (外部 API)"
+  short_description: "调用外部视觉模型 API 识别图片内容并返回文字描述"
+  default_prompt: "Use $recognize-image to recognize the contents of an image file."
+
+policy:
+  allow_implicit_invocation: true
