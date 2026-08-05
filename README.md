@@ -1,5 +1,13 @@
 # recognize-image
 
+![recognize-image](assets/banner.png)
+
+<div align="center">
+  <img src="assets/logo.png" alt="recognize-image logo" width="96"/>
+  <br/>
+  <img src="https://img.shields.io/github/stars/llKengken/recognize-image-skill?style=flat-square&color=2ea44f" alt="GitHub stars"/>
+</div>
+
 A Codex skill that recognizes images through an external vision-capable model API.
 一个通过外部视觉模型 API 识别图片内容的 Codex 技能。
 
